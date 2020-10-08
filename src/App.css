@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+
+section {
+  font-family: 'David Libre', serif;
+}
+
+.nav-container {
+  top: 0;
+  z-index: 2;
+}
+
+nav {
+  color: black;
+  width: 80%;
+  margin: auto;
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+nav .link {
+  text-decoration: none;
+  color: white;
+  background: #9d30b3;
+  padding: 1rem 2rem;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.page {
+  margin-top: 40px;
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.text {
+  flex: 1;
+  padding-right: 70px;
+}
+
+.text h1 {
+  padding-top: 40px;
+  font-size: 44px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.text p {
+  padding-bottom: 15px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.text .btn {
+  color: white;
+  background: #9d30b3;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+}
+
+.img img {
+  height: 400px;
+  width: 400px;
+}
+
+.pilot {
+  display: flex;
+  padding-top: 80px;
+  width: 80%;
+  margin: auto;
+  font-family: 'Lobster', cursive;
+}
+
+.pilot .plain {
+  margin-top: 30px;
+  margin-left: 70px;
+}
+
+.pilot .icons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.pilot p {
+  text-align: center;
+  background: white;
+  box-shadow: 10px 10px 5px 0px rgba(240, 234, 234, 0.75);
+  padding: 2rem 3rem;
+  border-radius: 9px;
+  margin-left: 20px;
+  margin-bottom: 12px;
+}
+
+.pilot img {
+  margin-bottom: 20px;
+}
+
+.plain h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 9px;
+}
+
+.plain .meet {
+  font-size: 20px;
+  font-weight: 200;
+  margin-bottom: 9px;
+}
+
+.cone {
+  width: 80%;
+  margin: auto;
+  font-family: 'Lobster Two', cursive;
+}
+
+.client {
+  /* margin-top: 40px; */
+  display: flex;
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+
+.generate {
+  flex: 1;
+  padding-right: 90px;
+  padding-top: 3.5rem;
+}
+
+.generate h5 {
+  color: purple;
+}
+
+.generate h1 {
+  padding-top: 20px;
+  font-size: 44px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.generate p {
+  padding-bottom: 15px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.generate i {
+  color: purple;
+}
+
+.calculate img {
+  height: 450px;
+  width: 400px;
+}
